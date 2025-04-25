@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+    <style>
+        .col1 {
+            height: 100px;
+        }
+
+
+        .text {
+            color: white;
+            text-align: center;
+            font-size: 40px;
+        }
+
+        .text1 {
+            padding: 25px;
+            text-align: center;
+
+        }
+
+        .col2 {
+            height: px;
+        }
+
+        .lorem {
+            font-size: 25px;
+        }
+
+        .bg-green {
+            background-color: green;
+        }
+
+        @media(max-width:997px) {
+            .bg-green {
+                background-color: red;
+            }
+
+
+
+        }
+
+        @media(max-width:576px) {
+            .bg-green {
+                background-color: blue;
+            }
+
+            .image-1 {
+                display: none;
+            }
+
+            .image-2 {
+                display: block !important;
+            }
+        }
+
+        @media (min-width:577px) and (max-width:996px) {
+            .para-text {
+                display: block !important;
+            }
+        }
+
+        .image-2 {
+            display: none;
+        }
+
+        .para-text {
+            display: none;
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mt-3">
+                <div class="bg-green">
+                    <div class="col1">
+                        <p class="text-white para-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Similique rem quis delectus sequi eum ad. Impedit illo facere nulla harum ipsum aut, dolore
+                            quos soluta, temporibus explicabo pariatur, repudiandae repellat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mt-3">
+                <div class="img-section">
+                    <img src="./nature.jpg" alt="nature" class="img-fluid image-1">
+                    <img src="./nature-green.jpg" alt="nature" class="img-fluid image-2">
+                </div>
+            </div>
+
+            <div class="col-lg-6 mt-3">
+                <div class="img-section">
+                    <img src="./nature.jpg" alt="nature" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row ">
+            <div class="col-lg-6">
+                <div class="bg-dark">
+                    <div class="col text1 mt-3">
+                        <p class="text">Click Here</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="bg-dark">
+                    <div class="col text1 mt-3">
+                        <p class="text">Click Here</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col-lg-12">
+                <div class="bg-warning">
+                    <div class="col1 border-5 border-start border-black"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col-lg-6 mb-5">
+
+                <div class="col2 ">
+                    <p class="lorem  border-5 border-end border-black">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Vero aliquid est accusantium sit adipisci corporis placeat odio vel odit.
+                        Corrupti necessitatibus laudantium itaque maiores eos maxime quibusdam est minus repudiandae.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="col-lg-6 ">
+
+                <div class="col2">
+                    <p class="lorem ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aliquid est
+                        accusantium sit adipisci corporis placeat odio vel odit. Corrupti necessitatibus laudantium
+                        itaque maiores eos maxime quibusdam est minus repudiandae.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
